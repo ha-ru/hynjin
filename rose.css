@@ -1,0 +1,73 @@
+.icon img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border-style: solid;
+    margin-right: 10px;
+    margin-top: 25px;
+    transform: rotate(5turn);
+    transition: 1.5s;
+}
+
+.pink:hover{
+    transform: rotate(5turn);
+    transition: 1.5s;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+header {
+    padding: 50px auto;
+    background-color: pink;
+    height: 200px;
+}
+
+.tab-jisoo-item.is-active {
+    color: white;
+    background-color: rgb(68, 3, 46);
+}
+
+.tab-jisoo-item {
+    background-color: #ccc;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px 10px 0 0;
+    margin-right: 2px;
+}
+
+.tab-jisoo {
+    display: flex;
+}
+
+.tab-jennie {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.tab-jennie-item {
+    display: none;
+    width: 600px;
+}
+
+.tab-jennie img {
+    height: 800px;
+    width: 564px;
+}
+
+@media(max-width: 670px){
+    .tab-jennie img {
+        height: 600px;
+        width: 400px;
+    }
+    header {
+        padding: 50px auto;
+        background-color: pink;
+        height: 200px;
+        width: 637px;
+    }
+}
