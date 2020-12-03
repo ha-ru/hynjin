@@ -5,13 +5,12 @@
     border-style: solid;
     margin-right: 10px;
     margin-top: 25px;
-    transform: rotate(5turn);
-    transition: 1.5s;
 }
 
 .pink:hover{
-    transform: rotate(5turn);
-    transition: 1.5s;
+    transform: rotate(-30deg)
+               translateX(-35px);
+    transition: 1s;
 }
 
 .container {
