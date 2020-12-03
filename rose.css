@@ -58,7 +58,7 @@ header {
     width: 564px;
 }
 
-@media(max-width: 350px){
+@media(max-width: 670px){
     .tab-jennie img {
         height: 450px;
         width: 250px;
