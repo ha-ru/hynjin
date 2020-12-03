@@ -70,4 +70,7 @@ header {
         height: 200px;
         width: 500px;
     }
+    body {
+        height:700px;
+        width:380px;
 }
