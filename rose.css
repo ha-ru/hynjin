@@ -59,15 +59,15 @@ header {
     width: 564px;
 }
 
-@media(max-width: 670px){
+@media(max-width: 380px){
     .tab-jennie img {
-        height: 600px;
-        width: 400px;
+        height: 450px;
+        width: 250px;
     }
     header {
         padding: 50px auto;
         background-color: pink;
         height: 200px;
-        width: 637px;
+        width: 500px;
     }
 }
